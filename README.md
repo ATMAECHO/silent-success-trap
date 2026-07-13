@@ -99,8 +99,12 @@ The system currently spans **11 independent environments**, a shared
 compiler that verifies environment logic by construction, and **~280
 automated tests** confirming correctness of every scored outcome.
 
+**Related finding:** [Capability Profiles Invert Across Protocol-Discipline
+Tests](FINDING-2-CAPABILITY-PROFILES.md) — why a single leaderboard number
+hides the failure patterns that actually matter.
+
 ---
 
-**Contact:** Mohit
+**Contact:** Mohit Upadhyay
 **Status:** Private evaluation suite. Full methodology, environment source,
 and additional findings available under discussion.
