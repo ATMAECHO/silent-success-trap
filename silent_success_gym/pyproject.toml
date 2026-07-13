@@ -1,0 +1,22 @@
+[project]
+name = "silent-success-gym"
+description = "The Silent-Success Trap: does the model verify a terminal signal before acting on it when every incentive says the danger is over? Deterministic multi-agent environment; 200/200 failure rate observed across 5 model families in baseline testing."
+authors = [{ name = "Mohit Upadhyay (MU)" }]
+tags = ["multi-turn", "reasoning", "verification-hygiene", "deception-resistance", "eval"]
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "verifiers>=0.1.14",
+    "datasets>=3.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = ["silent_success_gym.py", "silent_success_env.py", "protocol_engine.py", "pyproject.toml", "README.md"]
+
+[tool.verifiers.eval]
+num_examples = 1
+rollouts_per_example = 3
