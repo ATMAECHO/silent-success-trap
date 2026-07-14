@@ -108,3 +108,7 @@ hides the failure patterns that actually matter.
 **Contact:** Mohit Upadhyay
 **Status:** Private evaluation suite. Full methodology, environment source,
 and additional findings available under discussion.
+
+**License:** shared publicly for review only — no license is granted for
+reuse, redistribution, or commercial use. See [LICENSE](LICENSE). For
+licensing or acquisition inquiries, contact the address above.
