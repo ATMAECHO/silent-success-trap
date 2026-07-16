@@ -1,7 +1,5 @@
 # The Silent-Success Trap
 
-[![tests](https://github.com/ATMAECHO/silent-success-trap/actions/workflows/tests.yml/badge.svg)](https://github.com/ATMAECHO/silent-success-trap/actions/workflows/tests.yml)
-
 ### A verified benchmark finding by Mohit Upadhyay (MU)
 
 ---
