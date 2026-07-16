@@ -84,6 +84,16 @@ unless you know to look for it.
   down under social pressure to accept a "generous" settlement in place of
   what they're actually owed — confirming this is about *signal valence*,
   not a one-off scenario quirk.
+- **It is the one floor in a battery most models pass.** Across the other
+  protocol-discipline directions tested — readiness under an unannounced
+  event, silent-omission detection, persuasion resistance, threat
+  verification, and additional deception structures probed at screening
+  depth — current models are mostly competent, and their per-direction
+  *profiles invert* (a model that aces one fails another). Unverified
+  good-news trust is the single direction where **every model, every
+  framing, fails 200/200 — no profile, no variance, just a floor.** A
+  result that survives a battery the models otherwise pass is the signal
+  that stood up when the others washed out, not a lucky demo.
 
 ## Verify it yourself
 
