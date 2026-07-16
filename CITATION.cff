@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you reference this finding or environment, please cite it as below."
+title: "The Silent-Success Trap: an asymmetric verification failure across LLM families"
+type: software
+authors:
+  - family-names: Upadhyay
+    given-names: Mohit
+date-released: 2026-07-13
+url: "https://github.com/ATMAECHO/silent-success-trap"

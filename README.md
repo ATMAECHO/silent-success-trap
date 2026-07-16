@@ -1,5 +1,7 @@
 # The Silent-Success Trap
 
+[![tests](https://github.com/ATMAECHO/silent-success-trap/actions/workflows/tests.yml/badge.svg)](https://github.com/ATMAECHO/silent-success-trap/actions/workflows/tests.yml)
+
 ### A verified benchmark finding by Mohit Upadhyay (MU)
 
 ---
@@ -85,6 +87,29 @@ unless you know to look for it.
   what they're actually owed — confirming this is about *signal valence*,
   not a one-off scenario quirk.
 
+## Verify it yourself
+
+The environment behind this finding lives in this repo — deterministic,
+with its protocol invariants proven by tests that need no API keys and no
+model access:
+
+```bash
+git clone https://github.com/ATMAECHO/silent-success-trap
+cd silent-success-trap
+pip install pytest
+pytest silent_success_gym/test_silent_success.py -q   # 14 passed
+```
+
+Those tests prove by construction that the deception path terminates
+`target_caught`, the verification path terminates `target_survived`, and
+the information asymmetry holds (the target sees *that* a terminal signal
+exists — never whether it is authentic).
+
+To rerun the live behavioral study against real models, the same package
+is published on the Prime Intellect Hub as `mu-research/silent-success-gym`
+— see [silent_success_gym/README.md](silent_success_gym/README.md) for the
+`vf-eval` commands and the two ablation env-args.
+
 ## What this is built on
 
 This finding comes from a purpose-built evaluation system: deterministic,
@@ -106,8 +131,10 @@ hides the failure patterns that actually matter.
 ---
 
 **Contact:** Mohit Upadhyay
-**Status:** Private evaluation suite. Full methodology, environment source,
-and additional findings available under discussion.
+**Status:** The featured environment is public in this repo and live on the
+Prime Intellect Hub. The remaining 10 environments in the suite, the full
+methodology, and the complete cross-model matrix data are private —
+available under discussion.
 
 **License:** shared publicly for review only — no license is granted for
 reuse, redistribution, or commercial use. See [LICENSE](LICENSE). For
