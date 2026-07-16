@@ -1,6 +1,6 @@
 # The Silent-Success Trap
 
-### A verified benchmark finding by Mohit
+### A verified benchmark finding by Mohit Upadhyay (MU)
 
 ---
 
